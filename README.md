@@ -36,10 +36,10 @@ It is used to execute performance testing, load testing and functional testing o
  - We created  4 script on Jmeter
  	|Scrpit|
 	|:-----------:|
-	|[001_Script](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#1001_script)
-	[002_Script](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#1002_script) 
-	[003_Script](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#1003_script) 
-	[004_Script](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#1004_script)|
+	|[001_Script](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#001_script)
+	[002_Script](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#002_script) 
+	[003_Script](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#003_script) 
+	[004_Script](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#004_script)|
  - We created 6 csv test-data files
  	|Test-Data|
 	|:---------:|
@@ -50,7 +50,7 @@ It is used to execute performance testing, load testing and functional testing o
 	[001_Script_bucket](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#001_Script_bucket) 
 	[001_Script_bucketid](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#001_Script_bucketid)|
 
-## 1.001_Script
+## 001_Script
   |Request|Endpoint|Functionality|
  |:-----:|:------:|:-----------:|
  |GET   |/api/ticker/list | Ticker Data|
@@ -74,7 +74,7 @@ It is used to execute performance testing, load testing and functional testing o
  |GET   |/api/order-bucket/history | List Basket Order History| 
  |GET   |/api/order-bucket/currency   | Basket currency Info | 
 
-## 1.002_Script
+## 002_Script
   |Request|Endpoint|Functionality|
  |:-----:|:------:|:-----------:|
  |POST   |/api/user-check | User check|
@@ -85,7 +85,7 @@ It is used to execute performance testing, load testing and functional testing o
  |POST   |/api/order-bucket | Create Basket |
  |PUT   |/api/order-bucket | Update Basket |
 
-## 1.003_Script
+## 003_Script
 |Request|Endpoint|Functionality|
  |:-----:|:------:|:-----------:|
  |POST   |/api/user-check | User check|
@@ -93,7 +93,7 @@ It is used to execute performance testing, load testing and functional testing o
  |GET    |/api/user/portfolio | User portfolio| 
  |GET    |/api/order/create-order  | Order Symbols List | 
 
-## 1.004_Script
+## 004_Script
 |Request|Endpoint|Functionality|
  |:-----:|:------:|:-----------:|
  |POST   |/api/order/symbols/list | Create Order|
@@ -144,8 +144,8 @@ It is used to execute performance testing, load testing and functional testing o
  - After Instell Jmeter, If you are using Windows, just run the file ```/bin/jmeter.bat``` to start JMeter in GUI mode 
  - Once open JMeter GUI Tool import the given script files by ``` File->Open->Select the Script file->Open ```
  - After open the Script, we have to import the Test-Data files ``` (001_Script_UserEmail, 001_Script_UserToken, 001_Script_Curreny_Details, 001_Script_Coin, 001_Script_bucket, 001_Script_bucketid) ``` directory on User Define Variable Config Element
- - Before We Run to Script, We have clear the 001_Script_UserToken and 001_Script_bucketid Test-data on directory
- - The ``` Dynamic User Email Data is Given by 001_Script_UserEmail file```, ``` Dynamic bucket name is Given by 001_Script_bucket```, ```001_Script_Curreny_Details and  001_Script_Coin have default values of have coins and base and quote currency details```
+ - Before We Run to Script, We have clear the ```001_Script_UserToken and 001_Script_bucketid``` Test-data on directory
+ - The ``` Dynamic User Email Data is Given by 001_Script_UserEmail file```, ``` Dynamic bucket name is Given by 001_Script_bucket```, ```001_Script_Curreny_Details and  001_Script_Coin have default values of have coins details, base and quote currency details```
 
 ### Summary Report 
  - The Load result will get by Using different Listener ``` (View Results Tree, View Results in Table and Summary Report)```
