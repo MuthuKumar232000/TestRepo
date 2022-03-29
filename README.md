@@ -140,12 +140,13 @@ It is used to execute performance testing, load testing and functional testing o
 | 001_Script_crosstests100 (100Users), 001_Script_crosstestsh5000 (100Users), 001_Script_crosstestsm10000 (100Users), 001_Script_crosstestst1000 (100Users) |
 
 ### Build steps
- - Download all Script, Test-data and Report files and stored in any directory
+ - Download all Script, Test-data and Report folders and stored in any directory
  - After Instell Jmeter, If you are using Windows, just run the file ```/bin/jmeter.bat``` to start JMeter in GUI mode 
  - Once open JMeter GUI Tool import the given script files by ``` File->Open->Select the Script file->Open ```
- - After open the Script, we have to import the Test-Data files ``` (001_Script_UserEmail, 001_Script_UserToken, 001_Script_Curreny_Details, 001_Script_Coin, 001_Script_bucket, 001_Script_bucketid) ``` directory on User Define Variable Config Element
+ - After open the Script, we have to import the stored directory path  on directory (User Define Variable Config Element) for access Test-Data files
  - Before We Run to Script, We have clear the ```001_Script_UserToken and 001_Script_bucketid``` Test-data on directory
- - The ``` Dynamic User Email Data is Given by 001_Script_UserEmail file```, ``` Dynamic bucket name is Given by 001_Script_bucket```, ```001_Script_Curreny_Details and  001_Script_Coin have default values of have coins details, base and quote currency details```
+ - The ``` Dynamic User Email Data is Given by 001_Script_UserEmail file```and ``` Dynamic bucket name is Given by 001_Script_bucket```->enter concurrent user details 001_Script_UserEmail and run the Script
+ - ```001_Script_Curreny_Details and  001_Script_Coin ```have default values of have coins details, base and quote currency details
 
 ### Summary Report 
  - The Load result will get by Using different Listener ``` (View Results Tree, View Results in Table and Summary Report)```
