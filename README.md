@@ -53,26 +53,26 @@ It is used to execute performance testing, load testing and functional testing o
 ## 1.001_Script
   |Request|Endpoint|Functionality|
  |:-----:|:------:|:-----------:|
- |GET   |/api/ticker/list?conversion_rate_round_off=true&page=1&pageSize=100 | Ticker Data|
+ |GET   |/api/ticker/list | Ticker Data|
  |GET   |/api/user  | User Info|
- |GET    |/api/user/portfolio?chartFilter=ONE_WEEK&search=&zero_balance=false | User portfolio| 
+ |GET    |/api/user/portfolio | User portfolio| 
  |GET    |/api/order/create-order  | Order Symbols List | 
- |GET |/api/order/symbols/fee?base_currency_id=16&quote_currency_id=14&side=BUY | Crypto Trading Fee with Symbol | 
+ |GET |/api/order/symbols/fee | Crypto Trading Fee with Symbol | 
  |POST   |/api/order/preview-order | Preview Order |
- |GET   |/api/order/history?assetName=eth&fromDate=&page=20&pageSize=200&search=bitcoin&status=&toDate= | User Order History |
+ |GET   |/api/order/history | User Order History |
  |GET   |/api/withdraw/inr/fee  | Inr Withdraw Fee |
- |GET    |/api/withdraw/crypto/fee?currency_id=47 | Crypto Withdraw Fee| 
+ |GET    |/api/withdraw/crypto/fee | Crypto Withdraw Fee| 
  |GET    |/api/inr/payment-gateway  | Inr Payment Gatway List | 
- |GET |/api/inr/deposit?amount=500&key=MOBIKWIK&order_id=ZPLive1639483505032 | Inr Deposit | 
- |GET   |/api/crypto/deposit-address?currency_id=47 | Crypto Depost address with Curreny Id |
- |GET    |/api/deposit-withdraw-history?assetName=eth&fromDate=&page=10&pageSize=10&search=&sort=&sortOrder=ASC&status=COMPLETED&toDate= | User Deposit Withdraw History | 
- |GET    |/api/inr/deposit/track-payment?order_id=01ec98cb-7ae3-1b33-a421-43f21ea145da   | Track UPI Deposit | 
+ |GET |/api/inr/deposit | Inr Deposit | 
+ |GET   |/api/crypto/deposit-address | Crypto Depost address with Curreny Id |
+ |GET    |/api/deposit-withdraw-history | User Deposit Withdraw History | 
+ |GET    |/api/inr/deposit/track-payment  | Track UPI Deposit | 
  |GET |/api/gift/list | List Gift Code | 
- |GET   |/api/order-bucket/default?page=1&pageSize=20 | List Default Baskets |
- |GET  |/api/order-bucket?page=1&pageSize=20 | List User Baskets |
+ |GET   |/api/order-bucket/default | List Default Baskets |
+ |GET  |/api/order-bucket | List User Baskets |
  |GET   |/api/order-bucket/size | Basket Configuration |
- |GET   |/api/order-bucket/history?page=1&pageSize=20 | List Basket Order History| 
- |GET   |/api/order-bucket/currency?currency_id=16   | Basket currency Info | 
+ |GET   |/api/order-bucket/history | List Basket Order History| 
+ |GET   |/api/order-bucket/currency   | Basket currency Info | 
 
 ## 1.002_Script
   |Request|Endpoint|Functionality|
@@ -81,7 +81,7 @@ It is used to execute performance testing, load testing and functional testing o
  |POST   |/api/auth/register  | User Registration|
  |POST   |/api/bank/add | Bank Add| 
  |POST   |/api/kyc/add  | Kyc Add| 
- |POST |/api/order/symbols/list?currency_id=16&side=BUY&type=FIAT | Create Tokenl | 
+ |POST |/api/order/symbols/list | Create Tokenl | 
  |POST   |/api/order-bucket | Create Basket |
  |PUT   |/api/order-bucket | Update Basket |
 
@@ -90,13 +90,13 @@ It is used to execute performance testing, load testing and functional testing o
  |:-----:|:------:|:-----------:|
  |POST   |/api/user-check | User check|
  |GET   |/api/user  | User Info|
- |GET    |/api/user/portfolio?chartFilter=ONE_WEEK&search=&zero_balance=false | User portfolio| 
+ |GET    |/api/user/portfolio | User portfolio| 
  |GET    |/api/order/create-order  | Order Symbols List | 
 
 ## 1.004_Script
 |Request|Endpoint|Functionality|
  |:-----:|:------:|:-----------:|
- |POST   |/api/order/symbols/list?currency_id=16&side=BUY&type=FIAT | Create Order|
+ |POST   |/api/order/symbols/list | Create Order|
  |POST   |/api/verification/otp  | Otp On Register Phone Number|
  |POST    |/api/withdraw/inr | Withdraw Inr| 
  |POST    |/api/withdraw/crypto | Crypto Withdraw | 
