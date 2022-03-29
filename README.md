@@ -36,19 +36,19 @@ It is used to execute performance testing, load testing and functional testing o
  - We created  4 script on Jmeter
  	|Scrpit|
 	|:-----------:|
-	|[001_Script](https://github.com/MuthuKumar232000/TestRepo/master/README.md#1001_script)
-	[002_Script](https://github.com/MuthuKumar232000/TestRepo/master/README.md#1002_script) 
-	[003_Script](https://github.com/MuthuKumar232000/TestRepo/master/README.md#1003_script) 
-	[004_Script](https://github.com/MuthuKumar232000/TestRepo/master/README.md#1004_script)|
+	|[001_Script](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#1001_script)
+	[002_Script](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#1002_script) 
+	[003_Script](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#1003_script) 
+	[004_Script](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#1004_script)|
  - We created 6 csv test-data files
  	|Test-Data|
 	|:---------:|
-	|[001_Script_UserEmail](https://github.com/MuthuKumar232000/TestRepo/master/README.md#001_script_useremail) 
-	[001_Script_UserToken](https://github.com/MuthuKumar232000/TestRepo/master/README.md#001_Script_UserToken) 
-	[001_Script_Curreny_Details](https://github.com/MuthuKumar232000/TestRepo/master/README.md#001_Script_Curreny_Details) 
-	[001_Script_Coin](https://github.com/MuthuKumar232000/TestRepo/master/README.md#001_Script_Coin) 
-	[001_Script_bucket](https://github.com/MuthuKumar232000/TestRepo/master/README.md#001_Script_bucket) 
-	[001_Script_bucketid](https://github.com/MuthuKumar232000/TestRepo/master/README.md#001_Script_bucketid)|
+	|[001_Script_UserEmail](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#001_script_useremail) 
+	[001_Script_UserToken](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#001_Script_UserToken) 
+	[001_Script_Curreny_Details](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#001_Script_Curreny_Details) 
+	[001_Script_Coin](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#001_Script_Coin) 
+	[001_Script_bucket](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#001_Script_bucket) 
+	[001_Script_bucketid](https://github.com/MuthuKumar232000/TestRepo/blob/master/README.md#001_Script_bucketid)|
 
 ## 1.001_Script
   |Request|Endpoint|Functionality|
