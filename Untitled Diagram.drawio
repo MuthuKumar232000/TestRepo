@@ -1,9 +1,138 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T14:11:00.477Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" version="22.1.3" etag="2Y4l9jZFjXG8Wp_zAU_U" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-23T14:44:24.704Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="M2gg2qP4ZiD0QA6YzxZB" version="22.1.3" type="github">
   <diagram name="Page-1" id="iqhsqefUhzDDIZ843IZO">
-    <mxGraphModel>
+    <mxGraphModel dx="1384" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sKYsHlQE6DYK6VdAmZQV-1" target="sKYsHlQE6DYK6VdAmZQV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-1" value="SDK APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sKYsHlQE6DYK6VdAmZQV-2" target="sKYsHlQE6DYK6VdAmZQV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-2" value="SDK Register device " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="267.5" width="175" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sKYsHlQE6DYK6VdAmZQV-3" target="sKYsHlQE6DYK6VdAmZQV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-3" value="&lt;div&gt;Generate SDK Token&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="425" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-4" value="&lt;div&gt;Cyphlens BackEnd&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="130" width="140" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.021;entryY=0.189;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="sKYsHlQE6DYK6VdAmZQV-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="sKYsHlQE6DYK6VdAmZQV-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="322" as="sourcePoint" />
+            <mxPoint x="450" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-8" value="url : /api/v1/sdk/registerDevice&lt;br&gt;Header : x-client-id , x-client-secret &lt;br&gt;Request Body : {email&amp;nbsp; , mobileNumber , bundleId , deviceType }" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="220" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-9" value="Response : deviceId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="328" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.021;entryY=0.381;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="sKYsHlQE6DYK6VdAmZQV-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="440" as="sourcePoint" />
+            <mxPoint x="593" y="437" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-14" value="url : /api/v1/sdk/generateToken&lt;br&gt;Header : x-client-id , x-client-secret &lt;br&gt;Request Body : {email&amp;nbsp; , mobileNumber , bundleId , deviceId }" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="383" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.436;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.992;entryY=0.892;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sKYsHlQE6DYK6VdAmZQV-4" target="sKYsHlQE6DYK6VdAmZQV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="480" as="sourcePoint" />
+            <mxPoint x="220" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-16" value="Response : sdkToken" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="485" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sKYsHlQE6DYK6VdAmZQV-17" target="sKYsHlQE6DYK6VdAmZQV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-17" value="login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="sKYsHlQE6DYK6VdAmZQV-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="593.92" as="sourcePoint" />
+            <mxPoint x="600" y="593" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-19" value="url : /api/v1/business/login/getCyph&lt;br&gt;Header : x-access-token (SDK Token)&lt;br&gt;Request Body : { &quot;username&quot;: &quot;email&quot;, &quot;imageType&quot;: &quot;PNG&quot; }" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="533" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.021;exitY=0.621;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sKYsHlQE6DYK6VdAmZQV-4" target="sKYsHlQE6DYK6VdAmZQV-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="643" as="sourcePoint" />
+            <mxPoint x="660" y="593" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-21" value="&lt;div&gt;Response : {&quot;sessionId&quot;: &quot;eab5dc239fe048faa&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&quot;image&quot;: &quot;&quot;PHN2ZyBiYXNlUHJvZ-----&quot;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="630" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sKYsHlQE6DYK6VdAmZQV-22" target="sKYsHlQE6DYK6VdAmZQV-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-22" value="&lt;div&gt;get document&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-23" value="verify" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.007;entryY=0.738;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="740" as="sourcePoint" />
+            <mxPoint x="600.98" y="740.4000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-25" value="url : /api/v1/document/getBySessionId&lt;br&gt;Header : x-access-token (SDK Token)&lt;br&gt;Request Body : { &quot;sessionId&quot;: &quot;d0802f944850444&quot; }&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="680" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sKYsHlQE6DYK6VdAmZQV-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="770" as="sourcePoint" />
+            <mxPoint x="205" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-27" value="Response : {Document details}&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="768" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.021;entryY=0.92;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="sKYsHlQE6DYK6VdAmZQV-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="870" as="sourcePoint" />
+            <mxPoint x="255" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-29" value="url : /api/v1/business/login/verifyCyph&lt;br&gt;Header : x-access-token (SDK Token)&lt;br&gt;&lt;div&gt;Request Body : {&quot;username&quot;: &quot;email&quot;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;passcode&quot;: &quot;754497&quot;, &quot;sessionId&quot;: &quot;sessionId&quot;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="798" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.958;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sKYsHlQE6DYK6VdAmZQV-4" target="sKYsHlQE6DYK6VdAmZQV-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="710" as="sourcePoint" />
+            <mxPoint x="450" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-34" value="&lt;div&gt;Response : {&quot;status&quot;: &quot;SUCCESS&quot;,&lt;/div&gt;&lt;div&gt;&quot;message&quot;: &quot;Verification successful.&quot;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="900" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sKYsHlQE6DYK6VdAmZQV-35" value="Cyphlens SDK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="310" y="75" width="140" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
